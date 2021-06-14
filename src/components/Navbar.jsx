@@ -71,13 +71,7 @@ export default function Navbar() {
                   Contactame!
                 </a>
               </li>
-              <div class="form-check form-switch">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="flexSwitchCheckDefault"
-                />
-              </div>
+              
             </ul>
           </div>
         </div>
