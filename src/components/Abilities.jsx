@@ -10,10 +10,14 @@ const H2 = styled.h2`
 `
 const Section = styled.section`
     @media (min-width: 900px){
-        .hola{
+        .hola ,.progress{
         margin-bottom: 20px;
         height: 30px;
         font-size: 20px;
+        }
+        .php{
+            width: 50%;
+            background-color: #787CB5;
         }
         .prog{
             margin-top: 120px;
@@ -24,10 +28,14 @@ const Section = styled.section`
         }
     } 
     @media (max-width: 900px){
-        .hola{
+        .hola,.progress{
         margin-bottom: 20px;
         height: 30px;
         font-size: 20px;
+        }
+        .php{
+            width: 50%;
+            background-color: #787CB5;
         }
         .prog{
             margin-top: 50px;
@@ -52,6 +60,9 @@ export default function Abilities() {
                             <ProgressBar className="hola"  variant="primary" now={83} label={` CSS ${83}% `}/>
                             <ProgressBar className="hola"  variant="warning" now={60} label={`JAVACRIPT ${60}% `}/>
                             <ProgressBar className="hola"  variant="info" now={30} label={`REACT JS ${30}%`}/>  
+                            <div className="progress">
+                                <div className="progress-bar php" role="progressbar">PHP 25%</div>
+                            </div>
                             <img src={bootstrap} alt="" className="tec"/>
                             <img src={sass} alt="" className="tec"/>
                         </div>

@@ -34,7 +34,7 @@ export default function Proyectos() {
                     </div>
                     <div className="col-lg-6">
                         <a href="https://github.com/Rner30/Proyecto_desarrollo_web" target="_blank"><img src={tienda} alt="" /></a>
-                        <h3 className="text-center">Tienda con javascrip vanilla</h3>
+                        <h3 className="text-center">Tienda con javascript vanilla</h3>
                     </div>
                 </div>
             </div>

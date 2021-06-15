@@ -25,7 +25,8 @@ export default function SobreMi() {
                         <img src="https://normat.com.pe/img/otros/trabajando.gif" alt="" srcset="" />
                     </div>
                     <div className="col-lg-6 pres">
-                        <h2>Hola mi nombre es <Span>Dario</Span> y soy un entusiasta de la programacion! </h2>
+                        <h2>Hola mi nombre es <Span>Dario</Span>, tengo 18 años y soy un estudiante 
+                        y entusiasta de la programacion! Me considero una persona proactiva y muy buena trabajando en grupos. </h2>
                     </div>
                 </div>
             </div>
