@@ -22,6 +22,17 @@ const SectionNav = styled.section`
         }
       }
     }
+    @media(max-width: 900px){
+      ul{
+        background-color: rgba(0, 0, 0, 0.71) !important;
+        border-radius: 15px;
+        a{
+          margin-left: 15px;
+          color: white !important;
+        };
+      }
+      
+    }
   }
 `;
 export default function Navbar() {
