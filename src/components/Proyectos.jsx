@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import tienda from '../img/tiendaFrutas.png'
 import dw from '../img/dwCoder.png'
+import tiempo from '../img/tiempo.png'
 const Section = styled.section`
     img{
         margin-top: 50px;
@@ -14,6 +15,10 @@ const Section = styled.section`
     }
     h3{
         margin-top: 1%;
+    }
+    .asd{
+        width: 100%;
+        align-items:center;
     }
 `
 const H2 = styled.h2`
@@ -35,6 +40,10 @@ export default function Proyectos() {
                     <div className="col-lg-6">
                         <a href="https://github.com/Rner30/Proyecto_desarrollo_web" target="_blank"><img src={tienda} alt="" /></a>
                         <h3 className="text-center">Tienda con javascript vanilla</h3>
+                    </div>
+                    <div className="col-lg-6 position-relative top-50 start-50 translate-middle-x">
+                        <a href="https://github.com/Rner30/Wheater_diff" target="_blank"><img src={tiempo} alt="" className="asd"/></a>
+                        <h3 className="text-center">App Weather</h3>
                     </div>
                 </div>
             </div>
