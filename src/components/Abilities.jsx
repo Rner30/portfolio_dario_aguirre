@@ -3,17 +3,23 @@ import styled from 'styled-components'
 import { ProgressBar } from 'react-bootstrap-v5'
 import bootstrap from '../img/bootstrap.png'
 import sass from '../img/sass1.png'
+import mcbook from '../img/mcbook.png'
 const H2 = styled.h2`
     font-family: Comic Sans MS;
     font-weight:bold;
     margin-top: 7rem;
 `
 const Section = styled.section`
+    color: white;
     @media (min-width: 900px){
         .hola ,.progress{
         margin-bottom: 20px;
         height: 30px;
         font-size: 20px;
+        }
+        .imgGif {
+            width: 80%;
+            margin-left: 3rem;
         }
         .php{
             width: 50%;
@@ -68,7 +74,7 @@ export default function Abilities() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img src="https://i.pinimg.com/originals/cd/59/d6/cd59d626dc86397fe45080e6e9c7027d.gif" alt="" />
+                        <img src={mcbook} alt="" className="imgGif"/>
                     </div>
                 </div>
             </div>

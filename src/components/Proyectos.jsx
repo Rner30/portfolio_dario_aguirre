@@ -4,6 +4,7 @@ import tienda from '../img/tiendaFrutas.png'
 import dw from '../img/dwCoder.png'
 import tiempo from '../img/tiempo.png'
 const Section = styled.section`
+    color: white;
     img{
         margin-top: 50px;
         width: 100%;

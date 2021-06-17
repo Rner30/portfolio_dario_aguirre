@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { IoLogoLinkedin, IoLogoGithub, IoMailOpen} from "react-icons/io5";
 
 const Section = styled.section`
+  color: white;
   @media (min-width: 992px) {
     .redes {
       margin-left: 38%;

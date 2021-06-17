@@ -1,9 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import rocket from '../img/pngwing.com.png'
 const Section = styled.section`
+    color: white;
     margin-top:5rem;
     img{
-        width: 90%;
+        width: 60%;
+        margin-left: 8rem;
+        margin-top: 6rem;
     }
     @media (min-width: 900px){
         .pres{
@@ -22,7 +26,7 @@ export default function SobreMi() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src="https://normat.com.pe/img/otros/trabajando.gif" alt="" srcset="" />
+                        <img src={rocket} alt="" srcset="" />
                     </div>
                     <div className="col-lg-6 pres">
                         <h2>Hola mi nombre es <Span>Dario Aguirre</Span>, tengo 18 años , soy un estudiante 

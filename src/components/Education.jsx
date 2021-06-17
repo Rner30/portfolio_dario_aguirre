@@ -1,17 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 import coderLogo from "../img/coderhouse-logo.png";
+import aprender from '../img/education.png'
+
 const Section = styled.section`
+  color: white;
   @media (min-width: 900px) {
     .imgGif {
-      width: 100%;
-      margin-top: 90px;
+      width: 35rem;
+      margin-top: 40px;
     }
     .coder {
       width: 35%;
     }
     .education {
       margin-top: 100px;
+      
     }
   }
   @media (max-width: 900px) {
@@ -23,7 +27,7 @@ const Section = styled.section`
     }
   }
   a {
-    color: black;
+    color: white;
     text-decoration: none;
   }
 `;
@@ -40,22 +44,22 @@ export default function Education() {
           <div className="col-lg-6">
             <img
               className="imgGif"
-              src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif"
+              src={aprender}
               alt=""
               srcset=""
             />
           </div>
           <div className="col-lg-6 education">
-            <a href="#">
+            <a href="#!">
               <img src={coderLogo} alt="" className="coder" />
               <h3>Desarrollo web - HTML, CSS, BOOTSTRAP, SASS</h3>
             </a>
-            <a href="#">
+            <a href="#!">
               <img src={coderLogo} alt="" className="coder" />
               <h3>Javascript - DOM, Eventos,POO, Jquery, Ajax</h3>
             </a>
 
-            <a href="#">
+            <a href="#!">
               <img src={coderLogo} alt="" className="coder" />
               <h3>
                 React JS - JSX, Componentes, API's, Eventos, Context, Firebase
