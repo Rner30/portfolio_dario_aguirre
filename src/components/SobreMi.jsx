@@ -4,10 +4,21 @@ import rocket from '../img/pngwing.com.png'
 const Section = styled.section`
     color: white;
     margin-top:5rem;
+    @media(min-width: 990px){
+        img{
+            margin-left: 8rem;
+            margin-top: 6rem;
+        }
+    }
+    @media(max-width: 990px){
+        img{
+            margin-left: 4rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
     img{
-        width: 60%;
-        margin-left: 8rem;
-        margin-top: 6rem;
+        width: 60%;  
     }
     @media (min-width: 900px){
         .pres{
