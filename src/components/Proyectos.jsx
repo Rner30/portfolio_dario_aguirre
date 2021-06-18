@@ -9,7 +9,7 @@ const Section = styled.section`
 `
 const H4 = styled.h4`
     font-family: 'Press Start 2P', cursive;
-    margin-top: 7rem;
+    margin-top: 4rem;
     
 `
 
