@@ -18,7 +18,7 @@ const Section = styled.section`
         }
         .imgGif {
             width: 80%;
-            margin-left: 3rem;
+            margin-left: 6rem;
         }
         .php{
             width: 50%;

@@ -77,11 +77,7 @@ export default function Navbar() {
                   Proyectos
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contactame">
-                  Contactame!
-                </a>
-              </li>
+              
               
             </ul>
           </div>

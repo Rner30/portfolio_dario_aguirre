@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import rocket from '../img/pngwing.com.png'
+import Redessociales from './Redes.jsx';
+
 const Section = styled.section`
     color: white;
     margin-top:5rem;
@@ -42,7 +44,9 @@ export default function SobreMi() {
                     <div className="col-lg-6 pres">
                         <h2>Hola mi nombre es <Span>Dario Aguirre</Span>, tengo 18 años , soy un estudiante 
                         y entusiasta de la programacion! Me considero una persona proactiva y muy buena trabajando en grupos. </h2>
+                        <Redessociales/>
                     </div>
+                    
                 </div>
             </div>
         </Section>
