@@ -4,9 +4,8 @@ import { ProgressBar } from 'react-bootstrap-v5'
 import bootstrap from '../img/bootstrap.png'
 import sass from '../img/sass1.png'
 import mcbook from '../img/mcbook.png'
-const H2 = styled.h2`
-    font-family: Comic Sans MS;
-    font-weight:bold;
+const H4 = styled.h4`
+    font-family: 'Press Start 2P', cursive;
     margin-top: 7rem;
 `
 const Section = styled.section`
@@ -57,7 +56,7 @@ const Section = styled.section`
 export default function Abilities() {
     return (
         <Section id="habilidades">
-            <H2 className="text-center">Habilidades</H2>
+            <H4 className="text-center">Habilidades</H4>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

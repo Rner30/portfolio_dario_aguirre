@@ -31,14 +31,14 @@ const Section = styled.section`
     text-decoration: none;
   }
 `;
-const H2 = styled.h2`
-  font-family: Comic Sans MS;
-  font-weight: bold;
+const H4 = styled.h4`
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 7rem;
 `;
 export default function Education() {
   return (
     <Section id="education">
-      <H2 className="text-center">Educacion</H2>
+      <H4 className="text-center">Educacion</H4>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

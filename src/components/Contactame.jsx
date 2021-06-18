@@ -10,15 +10,15 @@ const Section = styled.section`
     }
   }
 `;
-const H2 = styled.h2`
-  font-family: Comic Sans MS;
-  font-weight: bold;
-  margin-top: 6rem;
-`;
+const H4 = styled.h4`
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 6rem;
+    
+`
 export default function Contactame() {
   return (
     <Section id="contactame">
-      <H2 className="text-center">Contactame</H2>
+      <H4 className="text-center">Contactame</H4>
       <div className="container">
         <div className="row ">
           <div className="col-lg-6 redes">
