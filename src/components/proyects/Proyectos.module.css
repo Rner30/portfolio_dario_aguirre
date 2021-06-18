@@ -14,6 +14,9 @@
     .github, .website{
         font-size: 15px;
     }
+    .imagen{
+        height: 228px;
+    }
 }
 .github{
     text-decoration: none;
