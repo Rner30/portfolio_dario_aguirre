@@ -15,7 +15,7 @@ export default function Redessociales() {
         target="blank"
         title="Linkedin"
       >
-        <IoLogoLinkedin color="#0e76a8" size="4rem" />
+        <IoLogoLinkedin color="#00a0dc" size="4rem" />
       </a>
       <a href="https://github.com/Rner30" target="blank" title="Github">
         <IoLogoGithub size="4rem" color="black" />

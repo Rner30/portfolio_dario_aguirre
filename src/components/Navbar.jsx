@@ -38,10 +38,10 @@ const SectionNav = styled.section`
 export default function Navbar() {
   return (
     <SectionNav>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler border border-2 border-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -62,9 +62,9 @@ export default function Navbar() {
                   Sobre mi
                 </a>
               </li>
-              <li className="nav-item ">
-                <a className="nav-link" href="#education">
-                  Educación
+              <li className="nav-item">
+                <a className="nav-link" href="#proyectos">
+                  Proyectos
                 </a>
               </li>
               <li className="nav-item">
@@ -72,9 +72,10 @@ export default function Navbar() {
                   Habilidades
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#proyectos">
-                  Proyectos
+              
+              <li className="nav-item ">
+                <a className="nav-link" href="#education">
+                  Educación
                 </a>
               </li>
               

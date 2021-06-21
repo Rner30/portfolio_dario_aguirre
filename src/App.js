@@ -10,9 +10,9 @@ function App() {
     <Fragment>
       <Navbar/>
       <SobreMi/>
-      <Education/>
-      <Abilities/>
       <Proyectos/>
+      <Abilities/>
+      <Education/>
     </Fragment>
     
 

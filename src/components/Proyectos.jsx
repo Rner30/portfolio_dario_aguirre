@@ -29,7 +29,7 @@ export default function Proyectos() {
               info="HTML,CSS,Bootstrap"
               iconos={[
                 <IoLogoHtml5 color="#FF3E2A" size="2.5rem" />,
-                <IoLogoCss3 color="#639aff" size="2.5rem" />,
+                <IoLogoCss3 color="#1f75fe" size="2.5rem" />,
                 <BsBootstrapFill color="#BA00FF" size="2.5rem" />,
               ]}
             />
@@ -44,7 +44,7 @@ export default function Proyectos() {
               iconos={[
                 <IoLogoJavascript color="yellow" size="2.5rem" />,
                 <IoLogoHtml5 color="#FF3E2A" size="2.5rem" />,
-                <IoLogoCss3 color="#639aff" size="2.5rem" />,
+                <IoLogoCss3 color="#1f75fe" size="2.5rem" />,
                 <BsBootstrapFill color="#BA00FF" size="2.5rem" />,
               ]}
             />
@@ -59,7 +59,7 @@ export default function Proyectos() {
               iconos={[
                 <IoLogoJavascript color="yellow" size="2.5rem" />,
                 <IoLogoHtml5 color="#FF3E2A" size="2.5rem" />,
-                <IoLogoCss3 color="#639aff" size="2.5rem" />,
+                <IoLogoCss3 color="#1f75fe" size="2.5rem" />,
               ]}
             />
           </div>

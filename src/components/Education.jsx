@@ -8,13 +8,13 @@ const Section = styled.section`
   @media (min-width: 900px) {
     .imgGif {
       width: 35rem;
-      margin-top: 40px;
+      
     }
     .coder {
       width: 35%;
     }
     .education {
-      margin-top: 100px;
+      margin-top: 50px;
       
     }
   }
@@ -33,7 +33,7 @@ const Section = styled.section`
 `;
 const H4 = styled.h4`
   font-family: 'Press Start 2P', cursive;
-  margin-top: 7rem;
+  margin-top: 4rem;
 `;
 export default function Education() {
   return (

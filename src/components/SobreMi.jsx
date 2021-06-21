@@ -12,7 +12,10 @@ const Section = styled.section`
   @media (min-width: 990px) {
     img {
       margin-left: 8rem;
-      margin-top: 6rem;
+      margin-top: 8rem;
+    }
+    .pres {
+      margin-top: 200px;
     }
   }
   @media (max-width: 990px) {
@@ -24,11 +27,6 @@ const Section = styled.section`
   }
   img {
     width: 60%;
-  }
-  @media (min-width: 900px) {
-    .pres {
-      margin-top: 170px;
-    }
   }
 `;
 const Span = styled.span`
@@ -46,7 +44,7 @@ export default function SobreMi() {
             <h2>
               Hola mi nombre es <Span>Dario Aguirre</Span>, tengo 18 años , soy
               un estudiante y entusiasta de la programacion! Me considero una
-              persona proactiva y muy buena trabajando en grupos.{" "}
+              persona proactiva y muy buena trabajando en grupos.
             </h2>
             <div className="location">
               <h4>
