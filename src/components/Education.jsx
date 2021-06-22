@@ -59,12 +59,6 @@ export default function Education() {
               <h3>Javascript - DOM, Eventos,POO, Jquery, Ajax</h3>
             </a>
 
-            <a href="#!">
-              <img src={coderLogo} alt="" className="coder" />
-              <h3>
-                React JS - JSX, Componentes, API's, Eventos, Context, Firebase
-              </h3>
-            </a>
           </div>
         </div>
       </div>

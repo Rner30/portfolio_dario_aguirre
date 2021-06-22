@@ -59,7 +59,7 @@ export default function Navbar() {
                   aria-current="page"
                   href="#sobremi"
                 >
-                  Sobre mi
+                  Home
                 </a>
               </li>
               <li className="nav-item">
