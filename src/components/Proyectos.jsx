@@ -4,7 +4,7 @@ import styled from "styled-components";
 import tienda from "../img/tiendaFrutas.png";
 import dw from "../img/dwCoder.png";
 import tiempo from "../img/tiempo.png";
-import pizzeria from '../img/pizzeria_moderna.png'
+import pizzeria from '../img/pizzeria_moderna-min.png'
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoReact } from "react-icons/io5";
 import { BsBootstrapFill } from "react-icons/bs";
 const Section = styled.section`
