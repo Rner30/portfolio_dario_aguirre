@@ -4,7 +4,8 @@ import styled from "styled-components";
 import tienda from "../img/tiendaFrutas.png";
 import dw from "../img/dwCoder.png";
 import tiempo from "../img/tiempo.png";
-import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from "react-icons/io5";
+import pizzeria from '../img/pizzeria_moderna.png'
+import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoReact } from "react-icons/io5";
 import { BsBootstrapFill } from "react-icons/bs";
 const Section = styled.section`
   color: white;
@@ -49,7 +50,7 @@ export default function Proyectos() {
               ]}
             />
           </div>
-          <div className="col-lg-6 position-relative top-50 start-50 translate-middle-x">
+          <div className="col-lg-6">
             <Proyects
               imagen={tiempo}
               alt="App tiempo"
@@ -60,6 +61,19 @@ export default function Proyectos() {
                 <IoLogoJavascript color="yellow" size="2.5rem" />,
                 <IoLogoHtml5 color="#FF3E2A" size="2.5rem" />,
                 <IoLogoCss3 color="#1f75fe" size="2.5rem" />,
+              ]}
+            />
+          </div>
+          <div className="col-lg-6">
+            <Proyects
+              imagen={pizzeria}
+              alt="Pizzeria"
+              github="https://github.com/Rner30/Pizzeria_Moderna"
+              website="https://relaxed-pasteur-2d8da8.netlify.app/"
+              info="CSS,React"
+              iconos={[
+                <IoLogoCss3 color="#1f75fe" size="2.5rem" />,
+                <IoLogoReact color="#03a9f4" size="2.5rem"/>
               ]}
             />
           </div>

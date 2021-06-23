@@ -20,7 +20,7 @@ const Section = styled.section`
   }
   @media (max-width: 900px) {
     .imgGif {
-      width: 100%;
+      display:none;
     }
     .coder {
       width: 40%;

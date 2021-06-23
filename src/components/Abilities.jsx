@@ -33,6 +33,9 @@ const Section = styled.section`
         }
     } 
     @media (max-width: 900px){
+        .imgGif{
+            display:none;
+        }
         .hola,.progress{
         margin-bottom: 20px;
         height: 30px;

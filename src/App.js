@@ -14,8 +14,6 @@ function App() {
       <Abilities/>
       <Education/>
     </Fragment>
-    
-
   );
 }
 
