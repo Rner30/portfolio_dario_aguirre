@@ -7,6 +7,7 @@ import Typical from 'react-typical'
 const Section = styled.section`
   color: white;
   margin-top: 3rem;
+  
   .location {
     margin-top: 20px;
   }
@@ -45,11 +46,15 @@ export default function SobreMi() {
           </div>
           <div className="col-lg-6 pres">
             <h2>
-              Hola! soy <Typical steps={[2000,'Dario Aguirre']} wrapper="h2" className="typing"/>, tengo 18 años , soy
-              un estudiante y entusiasta de la programacion! Me considero una
-              persona proactiva y muy buena trabajando en grupos.
+              Hola! soy <Typical steps={[2000,'Dario Aguirre']} wrapper="h2" className="typing"/> 
+              
+    
+              
               
             </h2>
+            <h2>Desarrollador Front End </h2>
+            <h4>Soy un estudiante y entusiasta de la programacion! Me considero una
+              persona proactiva y muy buena trabajando en grupos.</h4>
             <div className="location">
               <h4>
                 <IoLocationSharp size="2em"  /> Buenos Aires, Argentina

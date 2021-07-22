@@ -7,15 +7,14 @@ const Section = styled.section`
   color: white;
   @media (min-width: 900px) {
     .imgGif {
-      width: 35rem;
-      
+      margin-left: 6rem;
+      width: 25rem;  
     }
     .coder {
       width: 35%;
     }
     .education {
-      margin-top: 50px;
-      
+      margin-top: 50px;  
     }
   }
   @media (max-width: 900px) {
@@ -29,6 +28,7 @@ const Section = styled.section`
   a {
     color: white;
     text-decoration: none;
+    clear:both;
   }
 `;
 const H4 = styled.h4`
@@ -50,13 +50,10 @@ export default function Education() {
             />
           </div>
           <div className="col-lg-6 education">
+
             <a href="#!">
               <img src={coderLogo} alt="" className="coder" />
-              <h3>Desarrollo web - HTML, CSS, BOOTSTRAP, SASS</h3>
-            </a>
-            <a href="#!">
-              <img src={coderLogo} alt="" className="coder" />
-              <h3>Javascript - DOM, Eventos,POO, Jquery, Ajax</h3>
+              <h3>Desarrollador Front End - React, Javascript , HTML, Sass, Bootstrap</h3>
             </a>
 
           </div>

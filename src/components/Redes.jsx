@@ -11,7 +11,7 @@ export default function Redessociales() {
   return (
     <Redes>
       <a
-        href="https://www.linkedin.com/in/aguirre-dario-4ba043203/"
+        href="https://www.linkedin.com/in/dario-aguirre/"
         target="blank"
         title="Linkedin"
       >
