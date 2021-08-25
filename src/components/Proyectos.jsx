@@ -3,11 +3,10 @@ import Proyects from "./proyects/Proyects";
 import styled from "styled-components";
 import tienda from "../img/tiendaFrutas.png";
 import dw from "../img/dwCoder.png";
-import tiempo from "../img/tiempo.png";
+import planets from '../img/planetssite-min.png'
 import blueGlasses from '../img/blueGlasses.png'
 import pizzeria from '../img/pizzeria_moderna-min.png'
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoReact } from "react-icons/io5";
-import {SiRedux} from 'react-icons/si'
 import { BsBootstrapFill } from "react-icons/bs";
 import redux from '../img/logos/redux.svg'
 import react from '../img/logos/react-2.svg'
@@ -73,9 +72,22 @@ export default function Proyectos() {
           <div className="col-lg-6">
             <Proyects
               imagen={pizzeria}
-              alt="Pizzeria"
+              alt="Pizzeria Moderna"
               github="https://github.com/Rner30/Pizzeria_Moderna"
               website="https://relaxed-pasteur-2d8da8.netlify.app/"
+              info="CSS,React"
+              iconos={[
+                <IoLogoCss3 color="#1f75fe" size="2.5rem" />,
+                <IoLogoReact color="#03a9f4" size="2.5rem"/>
+              ]}
+            />
+          </div>
+          <div className="col-lg-6">
+            <Proyects
+              imagen={planets}
+              alt="Info de planetas"
+              github="https://github.com/Rner30/planetas_info"
+              website="https://adoring-borg-e08ef4.netlify.app/"
               info="CSS,React"
               iconos={[
                 <IoLogoCss3 color="#1f75fe" size="2.5rem" />,
